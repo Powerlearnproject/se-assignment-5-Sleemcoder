@@ -507,7 +507,47 @@ Continue Execution: Press F5 to continue execution until the next breakpoint or 
 By following these steps and utilizing these features, you can effectively debug your programs in VS Code
 
 10. Using Source Control:
+
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+
+    ANSWER
+
+    Integrating Git with VS Code for Version Control
+
+1. Install Git
+   Download and Install Git: Git Download
+   Verify Installation: Open a terminal and type git --version to ensure Git is installed.
+1. Open VS Code and Initialize a Repository
+   Open Your Project Folder: In VS Code, go to File > Open Folder and select your project folder.
+   Open the Source Control View: Click on the Source Control icon in the Activity Bar on the side of VS Code.
+   Initialize a Git Repository: Click on the Initialize Repository button. This will create a .git folder in your project directory.
+1. Stage and Commit Changes
+   Make Some Changes: Modify or add files in your project.
+   Stage Changes: In the Source Control view, you will see the changes listed. Hover over the changes and click the + icon next to the files you want to stage, or click the + icon at the top to stage all changes.
+   Commit Changes: Once your changes are staged, type a commit message in the message box at the top and click the checkmark icon to commit the changes.
+1. Connect to GitHub
+   Sign in to GitHub: Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) and type GitHub: Sign in. Follow the prompts to authenticate with GitHub.
+   Create a Repository on GitHub: Go to GitHub and create a new repository. Copy the repository URL.
+1. Push Changes to GitHub
+   Add Remote: In the terminal within VS Code, add the remote repository by running:
+   sh
+   Copy code
+   git remote add origin <your-repo-URL>
+   Push Changes: Push your local commits to the remote repository by running:
+   sh
+   Copy code
+   git push -u origin master
+   Future Pushes: For subsequent commits, simply use:
+   sh
+   Copy code
+   git push
+   Summary
+   Install Git and verify its installation.
+   Initialize a Repository in your project folder using the Source Control view in VS Code.
+   Stage and Commit Changes through the Source Control view.
+   Connect to GitHub by signing in and creating a repository.
+   Push Changes to GitHub by adding the remote repository and pushing your commits.
+   By following these steps, you can efficiently manage your project's version control directly within VS Code, leveraging Git and GitHub for collaboration and version management.
 
 Submission Guidelines:
 

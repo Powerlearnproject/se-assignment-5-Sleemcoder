@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XoLGRbHq)
+s[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XoLGRbHq)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15277257&assignment_repo_type=AssignmentRepo)
 
 # SE-Assignment-5
@@ -49,7 +49,9 @@ Install Extensions and Configure Settings:
 
 Once Visual Studio Code is running, you can install extensions to enhance its functionality. Click on the Extensions icon on the sidebar or press Ctrl+Shift+X to open the Extensions view.
 Search for and install extensions relevant to your development needs, such as language support, themes, and tools.
-Configure settings by clicking on the gear icon (⚙️) in the lower left corner and selecting “Settings.” 2. First-time Setup:
+Configure settings by clicking on the gear icon (⚙️) in the lower left corner and selecting “Settings.”
+
+2. First-time Setup:
 
 - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
 
@@ -171,6 +173,26 @@ Configure project-specific settings (Workspace tab in settings)
 3. User Interface Overview:
 
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+
+   ANSWER
+
+   Main Components of the VS Code User Interface
+   Activity Bar:
+
+Location: On the far left side of the interface.
+Purpose: Provides access to different views such as Explorer, Search, Source Control, Run and Debug, and Extensions. It allows users to switch between these views quickly.
+Side Bar:
+
+Location: To the right of the Activity Bar.
+Purpose: Displays the content of the selected view from the Activity Bar. For example, the Explorer view shows your project's file and folder structure, the Search view allows for searching across files, and the Extensions view lists available extensions.
+Editor Group:
+
+Location: Center of the interface.
+Purpose: The main area where you write and edit code. Multiple files can be opened in tabs, and you can split the Editor into multiple groups to view and edit more than one file simultaneously.
+Status Bar:
+
+Location: Bottom of the interface.
+Purpose: Provides information about the current state of the editor and workspace, such as the selected coding language, line and column numbers of the cursor position, Git branch, and any errors or warnings. It also offers shortcuts to change settings like line endings and indentation
 
 4. Command Palette:
 
